@@ -4,7 +4,8 @@
   "description": "skeleton for starting with three",
   "main": "index.js",
   "scripts": {
-    "test": "beefy index.js:bundle.js"
+    "test": "beefy index.js:bundle.js",
+    "start": "browserify index.js -o bundle.js"
   },
   "repository": {
     "type": "git",
